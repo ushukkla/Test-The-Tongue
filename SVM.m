@@ -31,10 +31,10 @@ I = lightred/red test_image_from_SVM;
 for(j=0; j<e; j++)
 k++;
 xi=yi
-6: for(i=0; i<xi; i++)
+for(i=0; i<xi; i++)
 {
 clf = x
-8: if(y==e)
+ if(y==e)
 N+=1;
 }
 }
