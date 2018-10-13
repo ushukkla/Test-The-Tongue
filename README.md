@@ -25,3 +25,6 @@ and using shrapening filters in frequancy domain we will analyze what are the di
 ![tongue](https://user-images.githubusercontent.com/22126720/46804485-4f9d0a80-cd80-11e8-8e94-5fae9bd74f8e.png)
 
 GMM segmentation, when k=4.
+
+--------------------------------------------------------------------------------------------------------
+If you like the project and have used the source code anywhere, would love to hear from you at [![Say Thanks!](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg)](https://saythanks.io/to/Manu-shukla)
