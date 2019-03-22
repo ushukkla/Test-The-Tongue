@@ -6,7 +6,7 @@ sub_Tonguef = imcrop(Edge1f,rect_Tongue1);
 figure(5), imshow(sub_Tonguef);
 close All;
 clear All;
-Tongue1 = imread('tonhue1.jpg');
+Tongue1 = imread('tongue1.jpg');
 Tongue2 = imread('tongue5.jpg');
 figure(1), imshow(Tongue1);
 figure(2), imshow(Tongue2);
