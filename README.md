@@ -2,6 +2,9 @@ Test The Tongue
 -------------------------------------------------------------------------------------------------
 Test the tongue is the bio medical image analysis system, where through GMM and K- means clustering, 
 and using shrapening filters in frequancy domain we will analyze what are the diseases that a patient is having.
+In this project we have taken the dataset of 1000 images tongues and their parts, of Indians. Through these 1000 
+images we have made our own dataset, comprising of 200 healthy persons and 800 unhealthy persons. The dataset 
+is designed from specific database sources such as PubMed, Healthcare AI.
 
 • Sharpening the image for image enhancement and edge providing, using frequancy domain sharpening filters
 
