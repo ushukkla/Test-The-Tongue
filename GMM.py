@@ -16,7 +16,7 @@ def fit_samples(samples):
     print(gmix.covariances_)
     colors = ['r' if i==1 else 'g' if i==2 else 'b' if i==3 else 'y' if i==4 else 'k'for i in gmix.predict(samples)]
     ax = plt.gca()
-    ax.scatter(samples[:,0], samples[:,1], c=colors , alpha=0.6, marker='.',edgecolors = 'face')
+    ax.scatter(samples[:,0], samples[:,1], c=colors , alpha=0.6, marker='.',edgecolors = 'tongue')
     ax.scatter(gmix.means_[:,0],gmix.means_[:,1], c='black', alpha=1, marker='+')
     for i,(mean, covar)in enumerate(zip(gmix.means_,gmix.covariances_)):
         v, w = linalg.eigh(covar)
